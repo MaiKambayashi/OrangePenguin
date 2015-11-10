@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622BB3951BF2001800DEB04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BB3941BF2001800DEB04E /* AppDelegate.swift */; };
+		622BB3971BF2001800DEB04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BB3961BF2001800DEB04E /* ViewController.swift */; };
+		622BB39A1BF2001800DEB04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622BB3981BF2001800DEB04E /* Main.storyboard */; };
+		622BB39C1BF2001800DEB04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622BB39B1BF2001800DEB04E /* Assets.xcassets */; };
+		622BB39F1BF2001800DEB04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622BB39D1BF2001800DEB04E /* LaunchScreen.storyboard */; };
+		622BB3AA1BF2001800DEB04E /* OrangePenguinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BB3A91BF2001800DEB04E /* OrangePenguinTests.swift */; };
+		622BB3B51BF2001800DEB04E /* OrangePenguinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BB3B41BF2001800DEB04E /* OrangePenguinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		622BB3A61BF2001800DEB04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622BB3891BF2001700DEB04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622BB3901BF2001700DEB04E;
+			remoteInfo = OrangePenguin;
+		};
+		622BB3B11BF2001800DEB04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622BB3891BF2001700DEB04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622BB3901BF2001700DEB04E;
+			remoteInfo = OrangePenguin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		622BB3911BF2001700DEB04E /* OrangePenguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangePenguin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		622BB3941BF2001800DEB04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		622BB3961BF2001800DEB04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		622BB3991BF2001800DEB04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		622BB39B1BF2001800DEB04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		622BB39E1BF2001800DEB04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		622BB3A01BF2001800DEB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622BB3A51BF2001800DEB04E /* OrangePenguinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangePenguinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		622BB3A91BF2001800DEB04E /* OrangePenguinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangePenguinTests.swift; sourceTree = "<group>"; };
+		622BB3AB1BF2001800DEB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622BB3B01BF2001800DEB04E /* OrangePenguinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangePenguinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		622BB3B41BF2001800DEB04E /* OrangePenguinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangePenguinUITests.swift; sourceTree = "<group>"; };
+		622BB3B61BF2001800DEB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		622BB38E1BF2001700DEB04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622BB3A21BF2001800DEB04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622BB3AD1BF2001800DEB04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		622BB3881BF2001700DEB04E = {
+			isa = PBXGroup;
+			children = (
+				622BB3931BF2001800DEB04E /* OrangePenguin */,
+				622BB3A81BF2001800DEB04E /* OrangePenguinTests */,
+				622BB3B31BF2001800DEB04E /* OrangePenguinUITests */,
+				622BB3921BF2001700DEB04E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		622BB3921BF2001700DEB04E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				622BB3911BF2001700DEB04E /* OrangePenguin.app */,
+				622BB3A51BF2001800DEB04E /* OrangePenguinTests.xctest */,
+				622BB3B01BF2001800DEB04E /* OrangePenguinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622BB3931BF2001800DEB04E /* OrangePenguin */ = {
+			isa = PBXGroup;
+			children = (
+				622BB3941BF2001800DEB04E /* AppDelegate.swift */,
+				622BB3961BF2001800DEB04E /* ViewController.swift */,
+				622BB3981BF2001800DEB04E /* Main.storyboard */,
+				622BB39B1BF2001800DEB04E /* Assets.xcassets */,
+				622BB39D1BF2001800DEB04E /* LaunchScreen.storyboard */,
+				622BB3A01BF2001800DEB04E /* Info.plist */,
+			);
+			path = OrangePenguin;
+			sourceTree = "<group>";
+		};
+		622BB3A81BF2001800DEB04E /* OrangePenguinTests */ = {
+			isa = PBXGroup;
+			children = (
+				622BB3A91BF2001800DEB04E /* OrangePenguinTests.swift */,
+				622BB3AB1BF2001800DEB04E /* Info.plist */,
+			);
+			path = OrangePenguinTests;
+			sourceTree = "<group>";
+		};
+		622BB3B31BF2001800DEB04E /* OrangePenguinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				622BB3B41BF2001800DEB04E /* OrangePenguinUITests.swift */,
+				622BB3B61BF2001800DEB04E /* Info.plist */,
+			);
+			path = OrangePenguinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622BB3901BF2001700DEB04E /* OrangePenguin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622BB3B91BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguin" */;
+			buildPhases = (
+				622BB38D1BF2001700DEB04E /* Sources */,
+				622BB38E1BF2001700DEB04E /* Frameworks */,
+				622BB38F1BF2001700DEB04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangePenguin;
+			productName = OrangePenguin;
+			productReference = 622BB3911BF2001700DEB04E /* OrangePenguin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		622BB3A41BF2001800DEB04E /* OrangePenguinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622BB3BC1BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguinTests" */;
+			buildPhases = (
+				622BB3A11BF2001800DEB04E /* Sources */,
+				622BB3A21BF2001800DEB04E /* Frameworks */,
+				622BB3A31BF2001800DEB04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622BB3A71BF2001800DEB04E /* PBXTargetDependency */,
+			);
+			name = OrangePenguinTests;
+			productName = OrangePenguinTests;
+			productReference = 622BB3A51BF2001800DEB04E /* OrangePenguinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		622BB3AF1BF2001800DEB04E /* OrangePenguinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622BB3BF1BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguinUITests" */;
+			buildPhases = (
+				622BB3AC1BF2001800DEB04E /* Sources */,
+				622BB3AD1BF2001800DEB04E /* Frameworks */,
+				622BB3AE1BF2001800DEB04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622BB3B21BF2001800DEB04E /* PBXTargetDependency */,
+			);
+			name = OrangePenguinUITests;
+			productName = OrangePenguinUITests;
+			productReference = 622BB3B01BF2001800DEB04E /* OrangePenguinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		622BB3891BF2001700DEB04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = mai.kambayashi;
+				TargetAttributes = {
+					622BB3901BF2001700DEB04E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					622BB3A41BF2001800DEB04E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 622BB3901BF2001700DEB04E;
+					};
+					622BB3AF1BF2001800DEB04E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 622BB3901BF2001700DEB04E;
+					};
+				};
+			};
+			buildConfigurationList = 622BB38C1BF2001700DEB04E /* Build configuration list for PBXProject "OrangePenguin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 622BB3881BF2001700DEB04E;
+			productRefGroup = 622BB3921BF2001700DEB04E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				622BB3901BF2001700DEB04E /* OrangePenguin */,
+				622BB3A41BF2001800DEB04E /* OrangePenguinTests */,
+				622BB3AF1BF2001800DEB04E /* OrangePenguinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		622BB38F1BF2001700DEB04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622BB39F1BF2001800DEB04E /* LaunchScreen.storyboard in Resources */,
+				622BB39C1BF2001800DEB04E /* Assets.xcassets in Resources */,
+				622BB39A1BF2001800DEB04E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622BB3A31BF2001800DEB04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622BB3AE1BF2001800DEB04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		622BB38D1BF2001700DEB04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622BB3971BF2001800DEB04E /* ViewController.swift in Sources */,
+				622BB3951BF2001800DEB04E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622BB3A11BF2001800DEB04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622BB3AA1BF2001800DEB04E /* OrangePenguinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622BB3AC1BF2001800DEB04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622BB3B51BF2001800DEB04E /* OrangePenguinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		622BB3A71BF2001800DEB04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622BB3901BF2001700DEB04E /* OrangePenguin */;
+			targetProxy = 622BB3A61BF2001800DEB04E /* PBXContainerItemProxy */;
+		};
+		622BB3B21BF2001800DEB04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622BB3901BF2001700DEB04E /* OrangePenguin */;
+			targetProxy = 622BB3B11BF2001800DEB04E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		622BB3981BF2001800DEB04E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				622BB3991BF2001800DEB04E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		622BB39D1BF2001800DEB04E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				622BB39E1BF2001800DEB04E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		622BB3B71BF2001800DEB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		622BB3B81BF2001800DEB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		622BB3BA1BF2001800DEB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrangePenguin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mixi-Inc.OrangePenguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		622BB3BB1BF2001800DEB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrangePenguin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mixi-Inc.OrangePenguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		622BB3BD1BF2001800DEB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrangePenguinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mixi-Inc.OrangePenguinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangePenguin.app/OrangePenguin";
+			};
+			name = Debug;
+		};
+		622BB3BE1BF2001800DEB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrangePenguinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mixi-Inc.OrangePenguinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangePenguin.app/OrangePenguin";
+			};
+			name = Release;
+		};
+		622BB3C01BF2001800DEB04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrangePenguinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mixi-Inc.OrangePenguinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrangePenguin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		622BB3C11BF2001800DEB04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrangePenguinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mixi-Inc.OrangePenguinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrangePenguin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		622BB38C1BF2001700DEB04E /* Build configuration list for PBXProject "OrangePenguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622BB3B71BF2001800DEB04E /* Debug */,
+				622BB3B81BF2001800DEB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622BB3B91BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622BB3BA1BF2001800DEB04E /* Debug */,
+				622BB3BB1BF2001800DEB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		622BB3BC1BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622BB3BD1BF2001800DEB04E /* Debug */,
+				622BB3BE1BF2001800DEB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		622BB3BF1BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622BB3C01BF2001800DEB04E /* Debug */,
+				622BB3C11BF2001800DEB04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 622BB3891BF2001700DEB04E /* Project object */;
+}
