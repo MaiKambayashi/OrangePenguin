@@ -16,6 +16,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        GoogleAjax().searchImage()
+        
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         

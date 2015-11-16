@@ -14,6 +14,7 @@
 		622BB39F1BF2001800DEB04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622BB39D1BF2001800DEB04E /* LaunchScreen.storyboard */; };
 		622BB3AA1BF2001800DEB04E /* OrangePenguinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BB3A91BF2001800DEB04E /* OrangePenguinTests.swift */; };
 		622BB3B51BF2001800DEB04E /* OrangePenguinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BB3B41BF2001800DEB04E /* OrangePenguinUITests.swift */; };
+		62ECD45F1BF9E604005E101B /* GoogleAjax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ECD45E1BF9E604005E101B /* GoogleAjax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		622BB3B01BF2001800DEB04E /* OrangePenguinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangePenguinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		622BB3B41BF2001800DEB04E /* OrangePenguinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangePenguinUITests.swift; sourceTree = "<group>"; };
 		622BB3B61BF2001800DEB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62ECD45E1BF9E604005E101B /* GoogleAjax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAjax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		622BB3931BF2001800DEB04E /* OrangePenguin */ = {
 			isa = PBXGroup;
 			children = (
+				62ECD45D1BF9E5B7005E101B /* Api Clients */,
 				622BB3941BF2001800DEB04E /* AppDelegate.swift */,
 				622BB3961BF2001800DEB04E /* ViewController.swift */,
 				622BB3981BF2001800DEB04E /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				622BB3B61BF2001800DEB04E /* Info.plist */,
 			);
 			path = OrangePenguinUITests;
+			sourceTree = "<group>";
+		};
+		62ECD45D1BF9E5B7005E101B /* Api Clients */ = {
+			isa = PBXGroup;
+			children = (
+				62ECD45E1BF9E604005E101B /* GoogleAjax.swift */,
+			);
+			name = "Api Clients";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				622BB3971BF2001800DEB04E /* ViewController.swift in Sources */,
 				622BB3951BF2001800DEB04E /* AppDelegate.swift in Sources */,
+				62ECD45F1BF9E604005E101B /* GoogleAjax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				622BB3BB1BF2001800DEB04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		622BB3BC1BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguinTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				622BB3BE1BF2001800DEB04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		622BB3BF1BF2001800DEB04E /* Build configuration list for PBXNativeTarget "OrangePenguinUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				622BB3C11BF2001800DEB04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
