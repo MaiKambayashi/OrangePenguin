@@ -11,17 +11,20 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
    
     @IBOutlet weak var collectionView: UICollectionView!
-    var imageList: Array<UIColor> = []
+    var imageList: Array<Image> = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        GoogleAjax().searchImage()
-        
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
-        imageList = [UIColor.redColor(), UIColor.orangeColor(), UIColor.purpleColor()]
+        ImageManager().fetchImageList { (array, error) -> Void in
+            self.imageList = array
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                self.collectionView.reloadData()
+            })
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,8 +38,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell: UICollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)
-        cell.contentView.backgroundColor = imageList[indexPath.item]
-        return cell
+        
+        let imageEntity = imageList[indexPath.item]
+        let url = imageEntity.url
+        let data = NSData(contentsOfURL: url)
+        let imageView = cell.contentView.viewWithTag(1) as! UIImageView
+        imageView.image = UIImage(data: data!)
+        return cell        
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
