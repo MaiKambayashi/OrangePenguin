@@ -50,8 +50,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell        
     }
     
+    
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        print(indexPath.item)
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let rootViewController = mainStoryboard.instantiateViewControllerWithIdentifier("rootViewController")
+        self.presentViewController(rootViewController, animated: true, completion: nil)
     }
 }
 
