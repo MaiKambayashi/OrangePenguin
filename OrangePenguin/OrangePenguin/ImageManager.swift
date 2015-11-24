@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ImageManager {
     func fetchImageList(callbackHandler: (array: Array<Image>, error: NSError?) -> Void) -> Void {
@@ -17,5 +18,18 @@ class ImageManager {
             }
             callbackHandler(array: images, error: error)
          }
+    }
+    
+    func fetchImageData(url: NSURL, callbackHandler: (image: UIImage, error: NSError?) -> Void) ->
+        Void {
+            let config = NSURLSessionConfiguration.defaultSessionConfiguration()
+            let session = NSURLSession(configuration: config)
+            
+            let task = session.dataTaskWithURL(url) {
+                (data, response, error) -> Void in
+                let image = UIImage(data: data!)
+                callbackHandler(image: image!, error: error)
+            }
+            task.resume()
     }
 }

@@ -41,9 +41,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         let imageEntity = imageList[indexPath.item]
         let url = imageEntity.url
-        let data = NSData(contentsOfURL: url)
-        let imageView = cell.contentView.viewWithTag(1) as! UIImageView
-        imageView.image = UIImage(data: data!)
+        ImageManager().fetchImageData(url) { (image, error) -> Void in
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                let imageView = cell.contentView.viewWithTag(1) as! UIImageView
+                imageView.image = image
+            })
+        }
         return cell        
     }
     
